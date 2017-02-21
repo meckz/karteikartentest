@@ -1,0 +1,90 @@
+
+
+/*General*/
+body {
+  background: #708090;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 20px;
+	font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #8d9aa5;
+}
+
+h1 {
+color:#fff;
+text-align: center;
+}
+
+.button {
+    background-color: white; /* Green */
+    border: 2px solid #708090;
+    color: #708090;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	width:200px;
+}
+
+.button:hover {
+    background-color: #708090;
+    color:  white;
+	border: 2px solid white;
+}
+
+.box
+{
+	background: #fff;
+	text-align:center;
+	margin:10px;
+	border: 1px solid #708090;
+	padding:10px;
+	height:20vh;
+}
+
+.initiallyHidden 
+{ 
+display: none; 
+}
+
+#submitbox
+{
+	padding:10px;
+	display: block;
+	background-color: #fff;
+	border: 2px solid white;
+}
+
+#submitquestionbox
+{
+	text-align:center;
+	padding:10px;
+	display: block;
+	border: 1px solid white;
+}
+
+#submitquestionbox input
+{
+	width:45%;
+	height:20%;
+}
+#exportbox
+{
+	padding:10px;
+	display: block;
+}
+
+#importbox
+{
+	background-color: #ffffff;
+	padding:10px;
+	border: 2px solid white;
+}
